@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div id="head">
+        <img src="./img/Spotify-Logo.png" alt="" width="250px" height="150px" />
+      </div>
+      <div id="container">
+        <div id="valueBtn">
+          <h1 id="title">Músicas</h1>
+          <br />
+          <input
+            type="text"
+            name="music"
+            id="music"
+            placeholder="Escreva sua música favorita..."
+          /><br /><br />
+          <div>
+            <button class="btn" id="addBtn" onclick="addBtn()">
+              Adicionar
+            </button>
+            <button class="btn" id="removeBtn">Remover Música</button>
+          </div>
+        </div>
+      </div>
+      <div id="containerTwo">
+        <inp id="total">0</inp>
+        <div id="res"></div>
+      </div>
+    </main>
+  </body>
+</html>
